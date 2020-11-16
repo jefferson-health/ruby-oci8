@@ -1,4 +1,4 @@
-FROM ruby:2.6
+FROM ruby:2.6.6-11.2-basiclite
 
 RUN apt-get update \
   && apt-get install -y build-essential \
