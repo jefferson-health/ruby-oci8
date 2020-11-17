@@ -3,7 +3,7 @@ FROM ruby:2.6.6
 RUN apt-get update \
   && apt-get install -y build-essential \
   && apt-get install -y libxml2-dev libxslt1-dev \
-  && apt-get install -y libqt4-webkit libqt4-dev xvfb \
+  && apt-get install -y libqt4-dev xvfb \
   && apt-get install -y nodejs \
   && apt-get install -y libaio1 libaio-dev \
   && apt-get install -y alien
